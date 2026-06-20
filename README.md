@@ -1,6 +1,6 @@
 ### Experimental code for the paper "One-to-Many Authentication and Key Agreement Scheme with Desynchronization Resilience and Forward Secrecy for Multi-Device IoT"
 
-# O2N-AKA Artifacts (ProVerif · ns-3 · Baseline Timing)
+# O2N-AKA Artifacts (ProVerif · ns-3 · PDF · Baseline Timing)
 
 This repository contains three parts used to reproduce the paper’s evaluations:
 
@@ -9,6 +9,9 @@ This repository contains three parts used to reproduce the paper’s evaluations
 
 - **ns3/** — One-to-many scenario simulations on **ns-3.27**.  
   This folder also includes the paper’s simulation code and results **NS3 Simulation Result.pdf**.
+
+  - **PDF/** — Deterministic Prime Derivation Function in Python **3.10** .  
+  This folder also includes the Algorithm code and results.
 
 - **baseline/** — Baseline timing code in Python **3.10** (e.g., hash/PUF/CRT-related operations).  
   Run the scripts to generate simple CSV outputs for computation-overhead tables.
